@@ -473,23 +473,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Yosua Kristianto\\.nuget\\packages\\": {},
+    "C:\\Users\\yosua\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Code Repository\\Campus\\Thesis\\Machine Learning Instances\\Super Resolution CNN F#\\Src\\Main\\Machine Learning Instance\\Machine Learning Instance\\Machine Learning Instance.fsproj",
+      "projectUniqueName": "D:\\Code\\College\\Thesis Research\\CRNN Experiments\\super-resolution-convolution-neural-network\\Src\\Main\\Machine Learning Instance\\Machine Learning Instance\\Machine Learning Instance.fsproj",
       "projectName": "Machine Learning Instance",
-      "projectPath": "E:\\Code Repository\\Campus\\Thesis\\Machine Learning Instances\\Super Resolution CNN F#\\Src\\Main\\Machine Learning Instance\\Machine Learning Instance\\Machine Learning Instance.fsproj",
-      "packagesPath": "C:\\Users\\Yosua Kristianto\\.nuget\\packages\\",
-      "outputPath": "E:\\Code Repository\\Campus\\Thesis\\Machine Learning Instances\\Super Resolution CNN F#\\Src\\Main\\Machine Learning Instance\\Machine Learning Instance\\obj\\",
+      "projectPath": "D:\\Code\\College\\Thesis Research\\CRNN Experiments\\super-resolution-convolution-neural-network\\Src\\Main\\Machine Learning Instance\\Machine Learning Instance\\Machine Learning Instance.fsproj",
+      "packagesPath": "C:\\Users\\yosua\\.nuget\\packages\\",
+      "outputPath": "D:\\Code\\College\\Thesis Research\\CRNN Experiments\\super-resolution-convolution-neural-network\\Src\\Main\\Machine Learning Instance\\Machine Learning Instance\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Yosua Kristianto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\yosua\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

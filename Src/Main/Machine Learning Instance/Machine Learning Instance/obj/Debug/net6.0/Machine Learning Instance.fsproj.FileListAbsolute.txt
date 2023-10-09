@@ -1,0 +1,36 @@
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\bin\Debug\net6.0\Machine Learning Instance.exe
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\bin\Debug\net6.0\Machine Learning Instance.deps.json
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\bin\Debug\net6.0\Machine Learning Instance.runtimeconfig.json
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\bin\Debug\net6.0\Machine Learning Instance.dll
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\bin\Debug\net6.0\Machine Learning Instance.pdb
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\bin\Debug\net6.0\FSharp.Core.dll
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\bin\Debug\net6.0\Google.Protobuf.dll
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\bin\Debug\net6.0\MethodBoundaryAspect.dll
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\bin\Debug\net6.0\OneOf.dll
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\bin\Debug\net6.0\Protobuf.Text.dll
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\bin\Debug\net6.0\Razorvine.Pickle.dll
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\bin\Debug\net6.0\Serilog.dll
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\bin\Debug\net6.0\Tensorflow.Binding.dll
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\bin\Debug\net6.0\cs\FSharp.Core.resources.dll
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\bin\Debug\net6.0\de\FSharp.Core.resources.dll
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\bin\Debug\net6.0\es\FSharp.Core.resources.dll
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\bin\Debug\net6.0\fr\FSharp.Core.resources.dll
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\bin\Debug\net6.0\it\FSharp.Core.resources.dll
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\bin\Debug\net6.0\ja\FSharp.Core.resources.dll
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\bin\Debug\net6.0\ko\FSharp.Core.resources.dll
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\bin\Debug\net6.0\pl\FSharp.Core.resources.dll
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\bin\Debug\net6.0\pt-BR\FSharp.Core.resources.dll
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\bin\Debug\net6.0\ru\FSharp.Core.resources.dll
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\bin\Debug\net6.0\tr\FSharp.Core.resources.dll
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\bin\Debug\net6.0\zh-Hans\FSharp.Core.resources.dll
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\bin\Debug\net6.0\zh-Hant\FSharp.Core.resources.dll
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\obj\Debug\net6.0\Machine Learning Instance.fsproj.AssemblyReference.cache
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\obj\Debug\net6.0\Machine Learning Instance.AssemblyInfoInputs.cache
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\obj\Debug\net6.0\Machine Learning Instance.AssemblyInfo.fs
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\obj\Debug\net6.0\Machine Learning Instance.fsproj.CoreCompileInputs.cache
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\obj\Debug\net6.0\Machine Learning Instance.fsproj.CopyComplete
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\obj\Debug\net6.0\Machine Learning Instance.dll
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\obj\Debug\net6.0\Machine Learning Instance.pdb
+D:\Code\College\Thesis Research\CRNN Experiments\super-resolution-convolution-neural-network\Src\Main\Machine Learning Instance\Machine Learning Instance\obj\Debug\net6.0\Machine Learning Instance.genruntimeconfig.cache
