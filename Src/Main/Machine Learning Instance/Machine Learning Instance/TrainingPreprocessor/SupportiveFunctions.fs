@@ -20,12 +20,14 @@ module PythonLongerHand =
 
         let imageArray = Array2D.zeroCreate<int> width height;
 
+        // Iterate through the image pixels and add them to the array
         for y in 0 .. height - 1 do
             for x in 0 .. width - 1 do
                 let pixelValue = image.[x, y]
-                let pixelAsInt = int pixelValue.A << 24 + int pixelValue.R << 16 + int pixelValue.G << 8 + int pixelValue.B
-
-                imageArray.[y, x] <- image.[x, y];
+                // Convert the pixel value to an integer representation
+                let pixelAsInt = int pixelValue.A <<< 24 + int pixelValue.R <<< 16 + int pixelValue.G <<< 8 + int pixelValue.B
+                // Assign the pixel value to the array
+                imageArray.[y, x] <- pixelAsInt
 
         imageArray;
 
