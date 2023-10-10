@@ -7,12 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="App.config" />
     <None Include="App.example.config" />
     <Compile Include="Facade\Logger.fs" />
     <Compile Include="Services\TelegramServices.fs" />
-    <Compile Include="TrainingPreprocessor\Main.fs" />
-    <Compile Include="TrainingPreprocessor\SupportiveFunctions.fs" />
     <Compile Include="TrainingPreprocessor\Constant.fs" />
+    <Compile Include="TrainingPreprocessor\SupportiveFunctions.fs" />
+    <Compile Include="TrainingPreprocessor\Main.fs" />
     <Compile Include="DojoBook\20231002.fs" />
     <Compile Include="Model\ModelImporter.fs" />
     <Compile Include="Model\Dev.fs" />
@@ -20,9 +21,8 @@
     <Compile Include="Program.fs" />
   </ItemGroup>
 
-  <ItemGroup />
-
   <ItemGroup>
+    <PackageReference Include="SixLabors.ImageSharp" Version="3.0.2" />
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0" />
     <PackageReference Include="TensorFlow.NET" Version="0.110.4" />
   </ItemGroup>
