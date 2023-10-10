@@ -1,4 +1,4 @@
-﻿namespace Constant
+﻿namespace TrainingPreprocessor
 
 (*
 Here we define some parameters:
