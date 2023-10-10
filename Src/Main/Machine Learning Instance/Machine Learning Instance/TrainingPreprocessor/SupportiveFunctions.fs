@@ -1,5 +1,6 @@
 ﻿namespace TrainingPreprocessor
 
+open Microsoft.FSharp.Core.Operators
 open SixLabors.ImageSharp;
 open SixLabors.ImageSharp.PixelFormats;
 open SixLabors.ImageSharp.Processing;
@@ -11,18 +12,20 @@ module PythonLongerHand =
 
         As it name suggest, this function is a substitute of img_to_array keras utils in Python.
     *)
-    let ImageToArray (imagePath: string) =
+    let ImageToArray (imagePath: string): int[,] =
         use image = Image.Load<Rgba32>(imagePath);
 
         let width: int = image.Width;
         let height: int = image.Height;
 
-        let imageArray = Array2D.create width height [||];
+        let imageArray = Array2D.zeroCreate<int> width height;
 
         for y in 0 .. height - 1 do
             for x in 0 .. width - 1 do
-                let pixel = image.[x, y];
-                imageArray.[y, x] <- [| float pixel.R; float pixel.G; float pixel.B |];
+                let pixelValue = image.[x, y]
+                let pixelAsInt = int pixelValue.A << 24 + int pixelValue.R << 16 + int pixelValue.G << 8 + int pixelValue.B
+
+                imageArray.[y, x] <- image.[x, y];
 
         imageArray;
 
@@ -66,31 +69,7 @@ module PythonLongerHand =
 (*
 ### 1.1 Making support functions
 This part is making support function to actually reducing the image quality for the testing data. 
-
-List functions to be made:
-
-1. `resize_image` 
-As its name suggests, this function will resize the image by the specified factor. 
-
-If you want to downsample the image, you can set the factor by 1 / x or x / 100.
-If you want to upsample the image, you can set the factor by x
-
-2. convert_image_to_array
-As its name suggests, this function will convert a raw image data to a numpy array. You may notice that this function is only contains 1 line, but trust me, as a skilled-issue user (me), you may want to do this for better understanding of the function.
-
-3. downsize_upsize_image
-This function will downsample, and then upsample the image. It says, if this happen, for some reason the image will be start degraded on its quality.
-
-4. tight_crop_image
-This function will 
-
-5. crop_input
-This function will slice through the input image to the destinated dimension.
-
-6. crop_output
-This function will slice through the target image to the destinated dimension.
 *)
-
 module SupportFunctions =
 
     (*
@@ -211,8 +190,57 @@ module SupportFunctions =
 
         croppedImageArray;
 
+    (*
+        CropInput
 
+        This function will slice through the input image to the destinated dimension.
 
-//module CropInput (imageArray, factor) = 
+        The original code from dzlab:
+        ```python
+        def crop_input(image, x, y):
+            x_slice = slice(x, x + INPUT_DIM)
+            y_slice = slice(y, y + INPUT_DIM)
+            return image[y_slice, x_slice]
+        ```
 
-//module CropOutput (imageArray, factor) = 
+        This function will return the cropped image's array2d
+        @return array2d
+    *)
+    let CropInput (image: int[,]) (x: int) (y: int) =
+        let newWidth = TrainingPreprocessor.HyperParameters.INPUT_DIM;
+        let newHeight = TrainingPreprocessor.HyperParameters.INPUT_DIM;
+        let croppedImage = Array2D.zeroCreate<int> newHeight newWidth;
+    
+        for j in 0 .. newHeight - 1 do
+            for i in 0 .. newWidth - 1 do
+                croppedImage.[j, i] <- image.[y + j, x + i];
+    
+        croppedImage;
+
+    (*
+        CropOutput
+
+        This function will slice through the target image to the destinated dimension.
+
+        The original code from dzlab:
+        ```python
+        def crop_output(image, x, y):
+            x_slice = slice(x + PAD, x + PAD + LABEL_SIZE)
+            y_slice = slice(y + PAD, y + PAD + LABEL_SIZE)
+    
+            return image[y_slice, x_slice]
+        ```
+
+        This function will return the cropped image's array2d
+        @return array2d
+    *)
+    let CropOutput (image: int[,]) (x: int) (y: int) =
+        let newWidth = TrainingPreprocessor.HyperParameters.LABEL_SIZE;
+        let newHeight = TrainingPreprocessor.HyperParameters.LABEL_SIZE;
+        let croppedImage = Array2D.zeroCreate<int> newHeight newWidth;
+    
+        for j in 0 .. newHeight - 1 do
+            for i in 0 .. newWidth - 1 do
+                croppedImage.[j, i] <- image.[y + j + TrainingPreprocessor.HyperParameters.PAD, x + i + TrainingPreprocessor.HyperParameters.PAD];
+    
+        croppedImage;

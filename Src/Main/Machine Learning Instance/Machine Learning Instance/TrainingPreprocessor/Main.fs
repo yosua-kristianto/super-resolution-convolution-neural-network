@@ -3,6 +3,8 @@
 open System;
 open System.IO;
 open TrainingPreprocessor.PythonLongerHand;
+open TrainingPreprocessor.SupportFunctions;
+open TrainingPreprocessor.HyperParameters;
 
 module LoadImage =
     let Main = 
@@ -29,6 +31,7 @@ module LoadImage =
             printfn "Proposed folder name is: %s" folderName;
 
             let imageArray = ImageToArray file;
+            let scaledImage = DownUpSizeImage imageArray SCALE;
 
             i <- i+1;
 
