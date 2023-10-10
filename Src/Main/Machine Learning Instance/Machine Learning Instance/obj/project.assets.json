@@ -187,6 +187,22 @@
           }
         }
       },
+      "SixLabors.ImageSharp/3.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/SixLabors.ImageSharp.props": {}
+        }
+      },
       "System.Configuration.ConfigurationManager/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -587,6 +603,22 @@
         "serilog.sinks.console.nuspec"
       ]
     },
+    "SixLabors.ImageSharp/3.0.2": {
+      "sha512": "PlwUHnLZ67G1i0xXDYQJYbFiJsvXiEFWtKdV0QvY9j+dFasYbl+vWXXY42/asTsNjchsH5BLuoRzlf8Fa8lzpg==",
+      "type": "package",
+      "path": "sixlabors.imagesharp/3.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "build/SixLabors.ImageSharp.props",
+        "lib/net6.0/SixLabors.ImageSharp.dll",
+        "lib/net6.0/SixLabors.ImageSharp.xml",
+        "sixlabors.imagesharp.128.png",
+        "sixlabors.imagesharp.3.0.2.nupkg.sha512",
+        "sixlabors.imagesharp.nuspec"
+      ]
+    },
     "System.Configuration.ConfigurationManager/7.0.0": {
       "sha512": "WvRUdlL1lB0dTRZSs5XcQOd5q9MYNk90GkbmRmiCvRHThWiojkpGqWdmEDJdXyHbxG/BhE5hmVbMfRLXW9FJVA==",
       "type": "package",
@@ -781,28 +813,29 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "FSharp.Core >= 7.0.400",
+      "SixLabors.ImageSharp >= 3.0.2",
       "System.Configuration.ConfigurationManager >= 7.0.0",
       "TensorFlow.NET >= 0.110.4"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Yosua Kristianto\\.nuget\\packages\\": {},
+    "C:\\Users\\yosua\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Code Repository\\Campus\\Thesis\\Machine Learning Instances\\Super Resolution CNN F#\\Src\\Main\\Machine Learning Instance\\Machine Learning Instance\\Machine Learning Instance.fsproj",
+      "projectUniqueName": "D:\\Code\\College\\Thesis Research\\CRNN Experiments\\super-resolution-convolution-neural-network\\Src\\Main\\Machine Learning Instance\\Machine Learning Instance\\Machine Learning Instance.fsproj",
       "projectName": "Machine Learning Instance",
-      "projectPath": "E:\\Code Repository\\Campus\\Thesis\\Machine Learning Instances\\Super Resolution CNN F#\\Src\\Main\\Machine Learning Instance\\Machine Learning Instance\\Machine Learning Instance.fsproj",
-      "packagesPath": "C:\\Users\\Yosua Kristianto\\.nuget\\packages\\",
-      "outputPath": "E:\\Code Repository\\Campus\\Thesis\\Machine Learning Instances\\Super Resolution CNN F#\\Src\\Main\\Machine Learning Instance\\Machine Learning Instance\\obj\\",
+      "projectPath": "D:\\Code\\College\\Thesis Research\\CRNN Experiments\\super-resolution-convolution-neural-network\\Src\\Main\\Machine Learning Instance\\Machine Learning Instance\\Machine Learning Instance.fsproj",
+      "packagesPath": "C:\\Users\\yosua\\.nuget\\packages\\",
+      "outputPath": "D:\\Code\\College\\Thesis Research\\CRNN Experiments\\super-resolution-convolution-neural-network\\Src\\Main\\Machine Learning Instance\\Machine Learning Instance\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Yosua Kristianto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\yosua\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -830,6 +863,11 @@
             "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
             "target": "Package",
             "version": "[7.0.400, )",
+            "generatePathProperty": true
+          },
+          "SixLabors.ImageSharp": {
+            "target": "Package",
+            "version": "[3.0.2, )",
             "generatePathProperty": true
           },
           "System.Configuration.ConfigurationManager": {
